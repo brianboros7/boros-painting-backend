@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/exterior-images",
+      "handler": "exterior-images.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/exterior-images",
+      "handler": "exterior-images.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/exterior-images",
+      "handler": "exterior-images.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

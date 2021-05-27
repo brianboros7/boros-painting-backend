@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/interior-images",
+      "handler": "interior-images.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/interior-images",
+      "handler": "interior-images.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/interior-images",
+      "handler": "interior-images.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
